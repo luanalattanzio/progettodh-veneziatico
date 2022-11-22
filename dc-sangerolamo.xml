@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="veneziatico">
+	<item id="san-gerolamo" xml:id="veneziatico-san-gerolamo">
+		<dc:title>San Gerolamo</dc:title>
+		<dc:creator>Alessandro Vittoria</dc:creator>
+		<dc:subject>San Gerolamo</dc:subject>
+		<dc:subject>scultura; statua; scultura del XVI secolo; scultura di Alessandro Vittoria; arte sacra</dc:subject>
+		<dc:description xml:lang="it">Il 
+			<dc:subject>San Gerolamo</dc:subject> di 
+			<dc:creator>Alessandro Vittoria</dc:creator> è collocato nella navata destra di 
+			<dc:coverage>Santa Maria Gloriosa dei Frari</dc:coverage>. L'opera in 
+			<dc:format>marmo</dc:format>
+			è una delle creazioni più importanti dell'artista a 
+			<dc:coverage>Venezia</dc:coverage>. 
+			Eseguita tra il 
+			<dc:date>1560 e il 1575</dc:date>, 
+			l'opera faceva parte di un più complesso progetto in occasione dei lavori per l'
+			<dc:relation>altare del procuratore Gerolamo Zane</dc:relation>. Il 
+			<dc:subject>San Gerolamo</dc:subject> 
+			fulcro del complesso è uno dei pochi esemplari sopravvisuto fu definito "una delle opere più famose del Cinquecento" da Fogolari. Sullo zoccolo che sostiene la statua e sulle Sibille del frontone è inciso: 
+			<dc:span xml:lang="lat">“ALEXANDER VICTORIA FACIEBAT”</dc:span>.
+		</dc:description>
+		<dc:date>1564</dc:date>
+		<dc:type>scultura; statua</dc:type>
+		<dc:format>marmo; 190 cm</dc:format>
+		<dc:identifier type="CatalogogeneraledeiBeniCulturali">0500222731A-3</dc:identifier>
+		<dc:language type="iscrizione">lat</dc:language>
+		<dc:relation>Vite dei più celebri architetti, e scultori veneziani, che fiorirono nel secolo decimosesto scritte da Tommaso Temanza.</dc:relation>
+		<dc:relation>Martirio di Santa Caterina d'Alessandria, Palma il Giovane</dc:relation>
+		<dc:relation>Assunta, Tiziano Vecellio</dc:relation>
+		<dc:relation>Madonna di Ca'Pesaro, Tiziano Vecellio</dc:relation>
+		<dc:relation>Madonna con Bambino e Santi, Giovanni Bellini</dc:relation>
+		<dc:relation>Altare Zane, Alessandro Vittoria</dc:relation>
+		<dc:relation>Monumento al doge Giovanni Pesaro,  Baldassarre Longhena, Bernardo Falcone da Lugano, Melchior Barthel</dc:relation>
+		<dc:coverage>Venezia; Basilica di Santa Maria Gloriosa dei Frari</dc:coverage>
+		<dc:rights>Ente religioso cattolico</dc:rights>
+	</item>
+</catalogo>
+
+	
+
+	

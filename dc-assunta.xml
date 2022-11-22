@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="veneziatico">
+	<item id="assunta" xml:id="veneziatico-assunta">
+		<dc:title>Assunta</dc:title>
+		<dc:creator>Tiziano Vecellio</dc:creator>
+		<dc:subject>Assunta</dc:subject>
+		<dc:subject type="classificazione">>pala d'altare; olio su tavola; dipinto del XVI secolo; dipinto di Tiziano Vecelli; arte sacra </dc:subject>
+		<dc:description xml:lang="it">
+			L’imponente pala, commissionata a 
+			<dc:creator>Tiziano</dc:creator> nel 
+			<dc:date>1516</dc:date> da 
+			<dc:relation>frate Germano</dc:relation>, superiore del Convento dei Frari, fu collocata nell’abside il 
+			<dc:date>19 maggio 1518</dc:date>.
+			L'opera è una delle immagini più note della produzione giovanile dell'artista. Nel 1817 la pala venne trasportata alle Gallerie dell’Accademia, dove divenne uno dei dipinti preferiti e osannati dell’Ottocento. Il capolavoro tizianesco è tornato alla sua collocazione originaria nell’
+			<dc:coverage>altar maggiore della Basilica</dc:coverage>
+			il 13 agosto 1945, dove oggi si può ammirare nelle esatte condizioni per le quali l’artista l’aveva pensata.
+		</dc:description>
+		<dc:date>1516-1518</dc:date>
+		<dc:type>pala d'altare</dc:type>
+		<dc:format>olio su tavola; 668 x 334 cm</dc:format>
+		<dc:identifier type="CatalogogeneraledeiBeniCulturali">0500222558A-4</dc:identifier>
+		<dc:relation>Dialogo della pittura di M. Lodovico Dolce, intitolato l'Aretino. Nel quale si ragiona della dignità di essa pittura. Con esempi di pittori antichi e moderni: e nel fine si fa menzione delle virtù, e delle opere del divin Tiziano</dc:relation>
+		<dc:relation>Martirio di Santa Caterina d'Alessandria, Palma il Giovane</dc:relation>
+		<dc:relation>Madonna di Ca'Pesaro, Tiziano Vecellio</dc:relation>
+		<dc:relation>Madonna con Bambino e Santi, Giovanni Bellini</dc:relation>
+		<dc:relation>San Gerolamo, Alessandro Vittoria</dc:relation>
+		<dc:relation>Monumento al doge Giovanni Pesaro,  Baldassarre Longhena, Bernardo Falcone da Lugano, Melchior Barthel</dc:relation>
+		<dc:coverage>Venezia; Basilica di Santa Maria Gloriosa dei Frari</dc:coverage>
+		<dc:rights>Stato</dc:rights>
+	</item>
+</catalogo>

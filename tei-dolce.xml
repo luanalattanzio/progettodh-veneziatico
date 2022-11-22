@@ -1,0 +1,127 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+ 	<fileDesc>
+ 		<titleStmt>
+			<title>Dialogue sur la peinture de Lovis Dolce, intitulé l'Aretin. Dans le quel on traitte de l'excellence de la peinture, e de toutes les qualités necessaires au bon peintre: avec les exemples des peintres anciens, e modernes: à la fin on y parle du merite, e des ouvrages du divin Titien. 
+			</title>
+ 			<author xml:id="TT">Lodovico Dolce</author>
+ 			<sponsor>Google</sponsor>
+ 			<principal>Google</principal>
+ 			<respStmt xml:id="LL">
+ 				<resp>Codifica TEI</resp>
+ 				<resp>trascrizione</resp>
+ 				<name >Luana Lattanzio</name>
+ 			</respStmt>
+ 			<respStmt xml:id="RP">
+ 				<resp>revisione Codifica TEI</resp>
+ 				<resp>revisione trascrizione</resp>
+ 				<name>Rachele Pelusi</name>
+ 			</respStmt>
+ 		</titleStmt>
+ 		<publicationStmt>
+ 			<publisher>Google</publisher>
+	 		<availability>
+				<p>Questo testo è liberamente scaricabile e consultabile online</p>
+			</availability>
+			<date>23 settembre 2013</date>
+			<idno type="OCLC">955481233</idno>
+		</publicationStmt>
+		<notesStmt>
+			<note>Basato sulla copia della Biblioteca Nazionale Centrale di Roma, digitalizzato da Google.</note>
+		</notesStmt>
+ 		<sourceDesc>
+			<biblStruct>
+				<monogr>
+					<title>Dialogo della pittura di M. Lodovico Dolce, intitolato l'Aretino. Nel quale si ragiona della dignità di essa pittura. Con esempi di pittori antichi e moderni: e nel fine si fa menzione delle virtù, e delle opere del divin Tiziano</title>
+					<author>Lodovico Dolce</author>
+				<imprint>
+					<date>1735</date>
+					<publisher>per Michele Nestenus e Francesco Moucke</publisher>
+					<pubPlace>Firenze</pubPlace>
+					<editor>Michele Nestenus e Francesco Moucke</editor>
+
+				</imprint>
+				<extent>308 p.</extent>
+				</monogr>
+			</biblStruct>
+ 		</sourceDesc>
+ 	</fileDesc>
+ 	<encodingDesc>
+ 		<projectDesc>
+			<p>Testo codificato nell'ambito del progetto Veneziatico come fonte bibliografica e testimonianza delle opere di Tiziano e del contesto in cui furono realizzate.</p>
+		</projectDesc>
+		<classDecl>
+			<taxonomy id="CDD">
+				<bibl>Classificazione Decimale Dewey</bibl>
+			</taxonomy>
+		</classDecl>
+ 	</encodingDesc>
+ 	<profileDesc>
+ 		<creation xml:id="opera">
+ 			testo digitale di una ristampa di un'opera del
+ 			<date>1557</date>edita a
+ 			<name type="luogo">Venezia, Italia</name> da
+ 			<name type="persname">Giolito</name>
+ 		</creation>
+ 		<langUsage>
+			<language ident="it.">Italiano</language>
+			<language ident="fr.">Francese</language>
+		</langUsage>
+		<textClass>
+			<keywords scheme="CDD">
+				<term>709.45311 - Arte veneziana</term>
+				<term>755.20945 - Pittura di soggetti religiosi e simbolismo religioso. Cristinità. Italia</term>
+			</keywords>
+		</textClass>
+		<listCh type="characters-dialogo">
+			<charachter xml:id="PA">
+			<chName sameAs="http://viaf.org/viaf/66609417">Pietro Artetino</chName>
+			</charachter>
+			<charachter xml:id="GFF">
+			<chName sameAs="http://viaf.org/viaf/73050249">Giovan Francesco Fabrini</chName>
+			</charachter>
+		</listCh>
+ 	</profileDesc>
+ </teiHeader>
+ <text xml:lang="it">
+ 	<body>
+ 		<div type="sezione">
+ 			<sp WHO="#GFF">
+				<speaker>Fab.</speaker>
+				<p>. Intendo che Giorgione ebbe a dire che Tiziano insino nel ventre di sua madre era pittore </p>
+			</sp>
+			<sp WHO="PA">
+				<speaker>Aret.</speaker>
+				<p>Non passò molto che gli fu data a dipingere una gran tavola all’altar grande della  
+					<term>chiesa de’ Frati Minori</term>, 
+				ove Tiziano, pur giovanetto, dipinse a olio 
+					<term>la Vergine che ascende al cielo</term>
+				fra molti angioli che l’accompagnano, e di sopra lei affigurò un Dio Padre attorniato da due angioli. Par veramente che ella ascenda, con un volto pien d’umiltà, e il panno vola leggiadramente. Nel piano sono gli Apostoli, che con diverse attitudini dimostrano allegrezza e stupore, e sono per la maggior parte maggiori del vivo. E certo in questa tavola si contiene la grandezza e terribilità di Michelagnolo, la piacevolezza e venustà di Rafaello, et il colorito proprio della natura. E tuttavia questa fu la prima opera publica ch’egli a olio facesse, e la fece in pochissimo tempo, e giovanetto. Con tutto ciò i pittori goffi e lo sciocco volgo, che insino alora non avevano veduto altro che le cose morte e fredde di 
+					<term>Giovanni Bellino</term>,di 
+					<term>Gentile</term>e 
+					<term>del Vivarino</term> (perché 
+					<term>Giorgione</term> nel lavorare a olio non aveva ancora avuto lavoro publico e per lo più non faceva altre opere che mezze figure e ritratti), le quali erano senza movimento e senza rilevo, dicevano della detta tavola un gran male. Dipoi, raffreddandosi la invidia et aprendo loro a poco a poco la verità gli occhi, cominciarono le genti a stupir della nuova maniera trovata in Vinegia da 
+					<term>Tiziano</term>,
+					e tutti i pittori d’indi in poi si affaticarono d’imitarla; ma, per esser fuori della strada loro, rimanevano smarriti. E certo si può attribuire a miracolo che Tiziano, senza aver veduto alora le anticaglie di Roma, che furono lume a tutti i pittori eccellenti, solamente con quella poca favilluccia ch’egli aveva scoperta nelle cose di 
+					<term>Giorgione</term>,
+				    vide e conobbe la idea del dipingere perfettamente.</p>
+			</sp>
+			<sp WHO="#GFF">
+				<speaker>Fab.</speaker>
+				<p> È proverbio de’ Greci antichi che a tutti non è dato ire a Corinto. E voi avete detto che ’l dipinger bene è cosa da pochi. </p>
+			</sp>
+			<sp WHO="PA">
+				<speaker>Aret.</speaker>
+				<p>Aveva oggimai 
+					<term>Tiziano</term>
+					per le sue opere acquistata tanta fama, che non era gentiluomo in Vinegia, che non procurasse di aver qualche ritratto o altra invenzione di sua mano; e gli fur date a fare in più chiese diverse opere, come, nella medesima de’ Frati Minori, da que’ chiarissimi gentiluomini da 
+					<term>Ca’ Pesaro una tavola all’altare</term> ove è un pilo per l’acqua santa con una 
+					<term>figurina di marmo di San Giovanni Battista</term>, fatta dal 
+					<term>Sansovino</term>. 
+					Nella qual tavola fece 
+					<term>Tiziano</term> una Madonna che siede col fanciullo, il quale tiene una delle gambe leggiadramente alzata e posa il piè dell’altra sopra l’una delle mani della Madonna, inanzi alla quale è un San Pietro di aspetto venerabile, che, volto a lei, mette l’una mano sopra un libro aperto che tiene nell’altra mano, e le chiavi gli sono presso a’ piedi. Evvi un San Francesco et un armato con una bandiera, con alcuni ritratti de’ Pesari, che paion veri.</p>
+			</sp>	
+ 		</div>
+ 	</body>
+ </text>
+</TEI>

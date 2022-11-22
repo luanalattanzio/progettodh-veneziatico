@@ -1,0 +1,103 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+ 	<fileDesc>
+ 		<titleStmt>
+ 			<title>Vite dei più celebri architetti, e scultori veneziani, che fiorirono nel secolo decimosesto scritte da Tommaso Temanza.</title>
+ 			<author xml:id="TT">Tommaso Temanza</author>
+ 			<sponsor>Research Library, The Getty Research Institute</sponsor>
+ 			<funder>Research Library, The Getty Research Institute</funder>
+ 			<principal>Internet Archive</principal>
+ 			<respStmt xml:id="LL">
+ 				<resp>Codifica TEI</resp>
+ 				<resp>trascrizione</resp>
+ 				<name >Luana Lattanzio</name>
+ 			</respStmt>
+ 			<respStmt xml:id="RP">
+ 				<resp>revisione Codifica TEI</resp>
+ 				<resp>revisione trascrizione</resp>
+ 				<name>Rachele Pelusi</name>
+ 			</respStmt>
+ 		</titleStmt>
+ 		<publicationStmt>
+ 			<publisher>Internet Archive</publisher>
+ 			<address>
+ 				<pubPlace>San Francisco</pubPlace>
+				<addrLine>300 Funston Avenue</addrLine>
+			</address>
+	 		<availability>
+				<p>Questo testo è liberamente consultabile e scaricabile online</p>
+			</availability>
+			<idno type="OCLC">OCLC:1102193994</idno>
+			<date>13 Gennaio 2010</date>
+		</publicationStmt>
+ 		<sourceDesc>
+			<bibl>
+				<title>Vite dei più celebri architetti, e scultori veneziani, che fiorirono nel secolo decimosesto scritte da Tommaso Temanza.</title>
+				<author>Tommaso Temanza</author>
+				<date>1778</date>
+				<publisher>stamperia di Carlo Palese</publisher>
+				<pubPlace>Venezia</pubPlace>
+				<editor>Carlo Palese</editor>
+			</bibl>
+ 		</sourceDesc>
+ 	</fileDesc>
+ 	<encodingDesc>
+ 		<projectDesc>
+			<p>Testo codificato nell'ambito del progetto Veneziatico come fonte bibliografica e testimonianza delle opere di Alessandro Vittoria e del contesto in cui furono realizzate.</p>
+		</projectDesc>
+		<classDecl>
+			<taxonomy id="CDD">
+				<bibl>Classificazione Decimale Dewey</bibl>
+			</taxonomy>
+		</classDecl>
+ 	</encodingDesc>
+ 	<profileDesc>
+ 		<creation>
+ 			<date>1778</date>
+ 			<name type="luogo">Venezia, Italia</name>
+ 		</creation>
+ 		<langUsage>
+			<language ident="it">Italiano</language>
+		</langUsage>
+		<textClass>
+			<keywords scheme="CDD">
+				<term>709.45311 - Arte veneziana</term>
+				<term>19613 - Scultura sacra</term>
+			</keywords>
+		</textClass>
+ 	</profileDesc>
+ </teiHeader>
+ <text xml:lang="it">
+ 	<body>
+ 		<div type="Sezione">
+ 			<head>Vita di Alessandro Vittoria scultore ed architetto</head>
+ 			<p>Nella 
+ 				<term>Chiesa dei Frari frati minori conventuali</term>, fece di stucco una gran tavola dell'
+ 				<term>altare del Procurator Girolamo Zane</term>, con 
+ 				<term>la Vergine assunta circondata di angeli</term>, 
+ 				e sei figurone de' Santi, alcune di mezzo, ed  altre quasi di tutto rilievo , che non potevasi vedere cosa , la quale paragonare sé le potesse , in disegno, diligenza, e perfezione . Sopra il frontespicio vi fece 
+ 				<term>due maestose Sibille</term>, 
+ 				con le pieghe dei panni grandiose, e facili , con bellissime arie di teste, ed un putto nel mezzo pur esso perfettamente condotto . Sopra piedistallo nel mezzo dell'altare vi collocò una statua, maggiore del naturale , di 
+ 				<term>S. Girolamo</term>
+ 				da lui scolpita in marmo, risentita alquanto nei muscoli , sulla maniera del Buonarotti,con bellissimo leone appiedi. L’aria della testa non può essere più nobile, perché spira senno, santità, e divozione. Sono così bene spiccate le gambe, e le braccia, che sembra come impossibile, che si possa traforare il marmo in cotal guisa, e con tanta franchezza. Insomma quella statua è condotta con tanta intelligenza, che ella sola basterebbe a caratterizzarlo per eccellentissimo artefice. Ma che! La maestosa tavola di stucco, pochi anni sono, fu barbaramente manomessa da que' Padri , affine di porvi una 
+ 				<term>tavola dipinta del loro S. Giuseppe da Copertino</term> . Non fu piccolo avanzo in tanta strage che abbiano preservato , oltre il S. Girolamo di marmo , due di quelle figurone quasi di tutto rilievo , e che le abbiano collocate in due nicchi accanto all'altare predetto, ma in modo che niente spiccano agli occhi dei Professori . Quando una mattina , udendo ivi la S. Messa , me n' avvidi che si bell’opera era ita in rovina.
+ 			</p>
+ 			<lg>
+ 				<l>Com’ (a) /' divenni allor gelato, e fioco</l>
+ 				<l> Nol dimandar, lettor , ch' io non lo dico, </l>
+ 				<l>Però che ogni parlar sarebbe poco</l>
+ 			</lg>
+ 			<p>Ma venutomi presso uno di quei Padri mio amico , lo acconciai pel d'i delle feste. Se la nobilissima famiglia Zane, testè spenta, sussistesse ancora, quei malaccorti Padri non avrebbero tolto alle bell' Arti cotanta opera, né spogliata avrebbero questa Metropoli di cosi raro ornamento . E perché mai un qualche melancolico Professore del Disegno non si mette a tessere un Catalogo di quelle opere eccellenti , che o furono distrutte , o impiastrate , per l' ignoranza dei Rettori delle Chiese, delle Confraternite, e di altri luoghi pubblici? Di vero si leggerebbero cose più strane di quelle , che stanno scritte nelle Storie delle barbare nazioni , le quali desolarono Roma , e l'imperio romano.
+ 			</p>
+ 			<p>Il  Vittoria, nell'anno  MDLXXIV lavorò in ampio pezzo di marmo l'ornamento dell'inscrizione posta dalla Serenissima Repubblica, per ricordanza della venuta a Venezia  di Enrico III Re di Francia, la quale sta fitta nella muraglia del corridoio di fronte alla 
+ 				<term>Scala dei Giganti nel Palazzo Ducale</term>. 
+ 				Questo lavoro è nobile, ed eccellente in ogni sua parte, ma le due femmine, una su cadaun lato, sono di forme cosi leggiadre e nobili, e disegnate con tale perfezione, che quasi sono inimitabili. Tre altre figure in marmo di sua  mano, 
+ 				<term>la Giustizia</term>, 
+ 				<term>la  Pace</term>, e 
+ 				<term>la Dea Pallade</term>
+ 				 si veggono, sulla cornice della porta del Collegio in detto palagio, le quali gareggiano con altre opere di valenti professori, che  qui s'ammirano.
+ 			</p>
+ 		</div>
+ 	</body>
+ </text>
+</TEI>

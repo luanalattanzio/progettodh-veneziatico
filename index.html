@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+		<title>Veneziatico</title>
+		<link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	</head> 
+	<body>
+		<header>
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="col-md-2">
+						<img src="img/icona-gondola.png" alt="gondola"/>
+					</div>
+					<div class="col-md-8">
+						<div class="row text-center">
+                    		<h1>Veneziatico</h1>
+                        	<h4>Il viaggio oltre il Viatico di Longhi</h4>
+                        </div>
+                    </div>
+					<div class="col-md-2">
+						<div class="dropdown d-flex justify-content-end">
+						  <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  	IT | EN
+						  </button>
+						  <ul class="dropdown-menu">
+						    <li><a class="dropdown-item" href="#">Italiano</a></li>
+						    <li><a class="dropdown-item" href="#">English</a></li>
+						  </ul>
+						</div>
+                    </div>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg background-blue">
+			  <div class="container-fluid">
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="mynavbar">
+			      <ul class="navbar-nav me-auto mb-2 mb-l g-0">
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="#">Home</a>
+			        </li>
+			        <li class="nav-item"> 
+			          <a class="nav-link" href="tempi.html">Tempi</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="luoghi.html">Luoghi</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="artisti.html">Artisti</a>
+			        </li>
+			        <li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			            Catalogo
+			          </a>
+			          <ul class="dropdown-menu">
+			            <li><a class="dropdown-item" href="#">Tutte le categorie</a></li>
+			            <li><hr class="dropdown-divider"></li>
+			            <li><a class="dropdown-item" href="#">Dipinti</a></li>
+			            <li><a class="dropdown-item" href="#">Sculture</a></li>
+			            <li><a class="dropdown-item" href="#">Mosaici</a></li>
+			            <li><a class="dropdown-item" href="#">Architetture</a></li>
+			            <li><a class="dropdown-item" href="#">Testi</a></li>
+			          </ul>
+			        </li>
+			      </ul>
+			      <form class="d-flex" role="search">
+			        <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+			        <button class="btn me-1" type="submit" type="button"><i class="bi bi-search"></i></button> 
+			      </form>
+			      <button type="button" class="btn btn-dark">Accedi</button>
+			    </div>
+			  </div>
+			</nav>
+		</header>	
+		<main>
+			<div id="mycarouselCaptions" class="carousel slide" data-bs-ride="false">
+			  <div class="carousel-indicators">
+			    <button type="button" data-bs-target="#mycarouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			    <button type="button" data-bs-target="#mycarouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			    <button type="button" data-bs-target="#mycarouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			    <button type="button" data-bs-target="#mycarouselCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+			    <button type="button" data-bs-target="#mycarouselCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+			  </div>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img src="img/polittico-veneziano.jpg" class="d-block w-100" alt="polittico Lion di Lorenzo Veneziano, 1358" title="Lorenzo Veneziano, Polittico Lion">
+			      <div class="carousel-caption d-none d-md-block">
+			        <h6>“Che il primo letto della cultura dei trecentisti veneti sia l’arte congelata e autocritica del tardo bizantinismo, non par dubbio”</h6>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="img/jacopo-bellini.jpg" class="d-block w-100"
+                        alt="crocifissione di Jacopo Bellini, 1455-1460 circa" title="Jacopo Bellini, Crocifissione">
+			      <div class="carousel-caption d-none d-md-block">
+			        <h6>“Vegetavano ancora questi spiriti delicati ed ombrosi […] quando, verso il 1440 albeggia a Venezia la prima luce di un giorno vero e solivo a schiarire le immagini di un mondo come in gestazione.”</h6>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="img/pala-pesaro-tiziano.jpg" class="d-block w-100"
+                        alt="pala pesaro di Tiziano, 1519-1526" title="Tiziano, Pala Pesaro">
+			      <div class="carousel-caption d-none d-md-block">
+			        <h6>“Il primo del secolo nuovo assiste a parecchie rivelazioni pittoriche oltre quella stupenda di Lotto; basti rammetare le esperienze di Giorgione e, subito dopo la colorita felicità di Tiziano giovane.”</h6>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="img/luca-giordano-deposizione.jpg" class="d-block w-100"
+                        alt="deposizione di Cristo dalla croce di Luca Giordano, 1665" title="Luca Giordani, Deposizione">
+			      <div class="carousel-caption d-none d-md-block">
+			        <h6>“Viene il Seicento che, fra i cinque secoli, è il meno brillante a Venezia.”</h6>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="img/canaletto.jpg" class="d-block w-100"
+                        alt="il rio dei mendicanti di Canaletto, 1721-1724" title="Canaletto, Il rio dei mendicanti">
+			      <div class="carousel-caption d-none d-md-block">
+			        <h6>“Siamo così, già dentro l’amatissimo Settecento veneziano”</h6>
+			      </div>
+			    </div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#mycarouselCaptions" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#mycarouselCaptions" data-bs-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
+			</div>		
+			<div class="container-fluid pb-5 pt-5">
+	            <div class="row">
+	                <div class="col-md-10">
+	                	<div class="container">
+		                	<section class="row">
+		                		<div class="col-md-5">
+									<img src="img/longhiepallucchini.jpg" alt="forografia di Roberto Longhi e Rodolfo Pallucchini" title="Roberto Longhi e Rodolfo Pallucchini"/>
+								</div>	
+								<div class="col-md-7 background-blue">
+									<h3>Veneziatico</h3>
+									<p>Il progetto <em>Veneziatico, il viaggio oltre il Viatico di Longhi</em> nasce dalla volontà di catalogare il patrimonio culturale della città di Venezia. <br/>Il nome, chiaramente ispirato all'opera Longhiana "<cite>Viatico per cinque secoli di pittura veneziana</cite>", esprime il desiderio di viaggiare all'interno della città, nello spazio e nel tempo, oltrepassando il limite dell'ambito pittorico -imposto da Longhi- affiancandolo ad altre espressioni artistiche, per rappresentare nella sua pienezza una città che da sempre è considerata un museo a cielo aperto.</p> 	
+								</div>		
+							</section>
+						</div>
+						<div class="container pb-5 pt-5">
+							<section class="row">									
+								<h3 class="h3">Accesso diretto al catalogo<button class="btn" type="submit" type="button"><i class="bi bi-arrow-right-circle-fill" title="Vedi tutto il catalogo"></i></button></h3>	
+									<div class="row g-0">
+									<div class="boxes col-md-2">
+										<img src="img/veronese.jpg" alt="dipinti" class="image">
+									  	<div class="overlay">
+									  		<div>
+								  				<a href="#" class="box-text">Dipinti</a>
+								  			</div>
+									  	</div>
+									</div>
+									<div class="boxes col-md-2">
+										<img src="img/scultura-lecourt.jpg" alt="sculture" class="image">
+									  	<div class="overlay">
+									  		<div>
+								  				<a href="#" class="box-text">Sculture</a>
+								  			</div>
+									  	</div>
+									</div>
+									<div class="boxes col-md-2">
+										<img src="img/mosaico.jpg" alt="mosaici" class="image">
+									  	<div class="overlay">
+									  		<div>
+								  				<a href="#" class="box-text">Mosaici</a>
+								  			</div>
+									  	</div>
+									</div>
+									<div class="boxes col-md-2">
+										<img src="img/architettura-cad'oro.jpg" alt="architetture" class="image">
+									  	<div class="overlay">
+									  		<div>
+								  				<a href="#" class="box-text">Architetture</a>
+								  			</div>
+									  	</div>
+									</div>
+									<div class="boxes col-md-2">
+										<img src="img/testi.jpg" alt="testi" class="image">
+									  	<div class="overlay">
+									  		<div>
+								  				<a href="#" class="box-text">Testi</a>
+								  			</div>
+									  	</div>
+									</div>
+							</section>
+						</div>
+						<div class="container pb-5 pt-5">
+							<section class="row ">
+								<div class="col-md-6">
+									<div class="card border-blue" style="width: 28rem;">
+									  <div class="card-body">
+									    <p class="card-text">Entra a far parte del Team di <strong>Veneziatico</strong> e aiutaci a scoprire i tesori più nascosti della meravigliosa città di Venezia. <strong>COLLABORA CON NOI!</strong></p>
+								      	<div class="input-group">
+											<span class="input-group-text">Nome e Cognome</span>
+											<input type="text" aria-label="First name" class="form-control">
+											<input type="text" aria-label="Last name" class="form-control">
+										</div>
+										<br/>
+										<div class="input-group flex-nowrap">
+											<span class="input-group-text" id="addon-wrapping">@</span>
+											<input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+										</div>
+										<br/>
+										<div class="input-group mb-3">
+											<span class="input-group-text" id="inputGroup-sizing-default">Password</span>
+											<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+										</div>
+										<br/>
+										<p>Possiedi già un account?<a href="#" class="link-dark">Accedi</a></p>
+									    <button class="btn btn-dark" type="submit">Iscriviti</button>
+									  </div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="row text-center">
+										<h3>Chi siamo: conosci il nostro Team!</h3>
+									</div>
+									<hr/>
+									<div class="row">
+										<div class="card border-blue mb-3" style="max-width: 540px;">
+										  <div class="row g-0">
+										    <div class="col-md-4">
+										      <img src="img/avatar-blonde-woman-icon.jpg" class="img-fluid rounded-start" alt="avatar blonde">
+										    </div>
+										    <div class="col-md-8">
+										      <div class="card-body">
+										        <h6 class="card-title"><strong>Luana Lattanzio</strong></h6>
+										        <p class="card-text">Studentessa di Arti Visive, è la co-fondatrice del progetto <em>Veneziatico, il viaggio oltre il Viatico di Longhi.</em></p>
+										      </div>
+										    </div>
+										  </div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="card border-blue mb-3" style="max-width: 540px;">
+										  <div class="row g-0">
+										    <div class="col-md-4">
+										      <img src="img/avatar-redhead-woman-icon.jpg" class="img-fluid rounded-start" alt="avatar redhead">
+										    </div>
+										    <div class="col-md-8">
+										      <div class="card-body">
+										        <h6 class="card-title"><strong>Rachele Pelusi</strong></h6>
+										        <p class="card-text">Studentessa di Arti Visive, è la co-fondatrice del progetto <em>Veneziatico, il viaggio oltre il Viatico di Longhi.</em></p>
+										      </div>
+										    </div>
+										  </div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-1"></div>
+							</section>	
+						</div>	
+	                </div>
+	                <div class="col-md-2">
+	                    <aside>
+	                        <div>
+	                        	<h5 class="text-center">Approfondimenti</h5>
+	                     		<hr/> 
+								<div class="card" style="width: 11rem">
+								  <img src="img/appunti-pallucchini.png"alt="appunti di Rodolfo Pallucchini per la mostra">
+								  <div class="card-body">
+								    <h6 class="card-title">Rodolfo Pallucchini: Cinque secoli di pittura veneziana.</h6>
+								    <a href="https://www.academia.edu/42175289/Pallucchini_direttore_alle_Belle_arti_del_Comune_di_Venezia_1938_1950_un_itinerario_museografico_attraverso_la_storia_della_pittura_veneta" class="btn btn-dark">Scopri</a>
+								  </div>
+								</div>   
+	                            <br/> 
+								<div class="card" style="width: 11rem">
+								  <iframe width="175" height="175" src="https://www.youtube.com/embed/029JIJDrmjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								  <div class="card-body">
+								  	 <h6 class="card-title">Venezia. Le Galleria dell'Accademia. Sotto un unico cielo.</h6> 
+								  </div>
+								</div> 
+	                        </div>     
+	                    </aside>
+	                </div>
+	            </div>
+	        </div>
+		</main>
+		<footer>
+			<div class="container-fluid">
+				<div class="container-fluid background-blue">
+					<div class="container">
+						<div class="row">
+			                <div class="col-md-4 py-5">
+			                    <ul class="no-lista">
+			                        <li><h5>Veneziatico</h5></li>
+			                        <li><i class="bi bi-person-circle"></i>  Progetto realizzato da <strong> Luana Lattanzio & Rachele Pelusi</strong></li>
+			                        <li><i class="bi bi-laptop-fill"></i> Corso di Digital Humanities (2021/2022)</li>
+			                        <li><i class="bi bi-geo-fill"></i>Dipartimento di Arti Visive, Alma Mater Studiorum</li>
+			                    </ul>
+			                </div>
+			                <div class="col-md-2"></div>
+			                <div class="col-md-4 py-5">
+			                    <ul class="no-lista">
+			                        <li><h5>Contatti</h5></li>
+			                        <li><i class="bi bi-globe"></i>#</li>
+			                        <li><i class="bi bi-telephone"></i> 555-988-9828</li>
+			                        <li><i class="bi bi-envelope-fill"></i> info@veneziatico.edu.it</li>
+			                        <li><i class="bi bi-instagram"></i> <i class="bi bi-facebook"></i> <i class="bi bi-twitter"></i></li>                     
+			                    </ul>
+			                </div>
+			                <div class="col-md-2"></div>
+			            </div>
+			        </div>
+				</div>
+				<div class="row">
+					<p class="text-center">©Copyright 2022 - ALMA MATER STUDIORUM - Università di Bologna</p>
+				</div>
+            </div>
+		</footer>
+    	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
+
+
+
+

@@ -1,0 +1,30 @@
+<catalogo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="veneziatico">
+	<item id="Dialogo" xml:id="veneziatico-dolce">
+	<dc:title>Dialogue sur la peinture de Lovis Dolce, intitulé l'Aretin. Dans le quel on traitte de l'excellence de la peinture, e de toutes les qualités necessaires au bon peintre: avec les exemples des peintres anciens, e modernes: à la fin on y parle du merite, e des ouvrages du divin Titien. </dc:title>
+	<dc:creator>Lodovico Dolce</dc:creator>
+	<dc:subject type="classificazione">Monografia; Letteratura del XVI secolo; Opera in forma dialogica</dc:subject>
+	<dc:description xml:lang="it">
+		Il 
+		<dc:title>Dialogo della pittura intitolato l'Aretino</dc:title>, 
+		come indica il nome stesso, è un'opera in 
+		<dc:type>forma dialogica</dc:type> edita a 
+		<dc:coverage>Venezia</dc:coverage> da 
+		<dc:publisher>Giolito</dc:publisher> nel 
+		<dc:date>1557</dc:date>. La conversazione fittizia, che vede come protagonisti il grammatico toscano G. Fabrini e l'Aretino, verge attorno alla visione della pittura che si conferma nel principio dell' "ut pictura poesis", quindi, pittura è "poesia ... istoria ... qualunque componimento de' dotti". L'esaltazione di Raffaello di contro al michelangiolismo vasariano tende ad assumere in una valutazione classicistica il colorismo veneto incarnato da Tiziano: la riconosciuta superiorità di Raffaello su Michelangelo - per "colorito", "varietà" e "convenevolezza" - veniva usata dall'autore in senso strumentale, a vantaggio del veneziano, superiore nel "colorito" al secondo, e unico autentico erede della dignitosa "varietà" del primo.
+	</dc:description>
+	<dc:date type="edizione analogica">1735</dc:date>
+	<dc:date type="edizione digitale">23 settembre 2013</dc:date>
+	<dc:publisher type="edizione analogica">Michele Nestenus e Francesco Moucke</dc:publisher>
+	<dc:publisher type="edizione digitale">Google</dc:publisher>
+	<dc:type>Dialogo</dc:type>
+	<dc:format type="edizione analogica">libro cartaceo</dc:format>
+	<dc:format type="edizione digitale">PDF; ePub</dc:format>
+	<dc:identifier type="edizione analogica">OCLC:955481233</dc:identifier>
+	<dc:language>it; fr</dc:language>
+	<dc:relation>Tiziano Vecellio</dc:relation>
+	<dc:relation>Assunta</dc:relation>
+	<dc:relation>Pala Pesaro</dc:relation>
+	<dc:coverage type="edizione analogica">Biblioteca Nazionale Centrale, Roma</dc:coverage>
+	<dc:coverage type="edizione digitale">Google</dc:coverage>
+	</item>
+</catalogo>

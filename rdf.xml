@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<rdf:RDF
+xmlns:rdf="# San gerolamo in html"
+xmlns:dc="# qst pagina rdf">
+  <rdf:Description 
+    rdf:about="San Gerolamo in html">
+    <dc:title>San Gerolamo</dc:title>
+    <dc:creator>Alessandro Vittoria</dc:creator>
+  </rdf:Description>
+</rdf:RDF>

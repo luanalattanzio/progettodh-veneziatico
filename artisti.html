@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+		<title>Veneziatico</title>
+		<link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	</head> 
+	<body>
+		<header>
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="col-md-2">
+						<img src="img/icona-gondola.png" alt="gondola"/>
+					</div>
+					<div class="col-md-8">
+						<div class="row text-center">
+                    		<h1>Veneziatico</h1>
+                        	<h4>Il viaggio oltre il Viatico di Longhi</h4>
+                        </div>
+                    </div>
+					<div class="col-md-2">
+						<div class="dropdown d-flex justify-content-end">
+						  <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  	IT | EN
+						  </button>
+						  <ul class="dropdown-menu">
+						    <li><a class="dropdown-item" href="#">Italiano</a></li>
+						    <li><a class="dropdown-item" href="#">English</a></li>
+						  </ul>
+						</div>
+                    </div>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg background-blue">
+			  <div class="container-fluid">
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="mynavbar">
+			      <ul class="navbar-nav me-auto mb-2 mb-l g-0">
+			        <li class="nav-item">
+			          <a class="nav-link" href="index.html">Home</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="tempi.html">Tempi</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="luoghi.html">Luoghi</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="#">Artisti</a>
+			        </li>
+			        <li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			            Catalogo
+			          </a>
+			          <ul class="dropdown-menu">
+			            <li><a class="dropdown-item" href="#">Tutte le categorie</a></li>
+			            <li><hr class="dropdown-divider"></li>
+			            <li><a class="dropdown-item" href="#">Dipinti</a></li>
+			            <li><a class="dropdown-item" href="#">Sculture</a></li>
+			            <li><a class="dropdown-item" href="#">Mosaici</a></li>
+			            <li><a class="dropdown-item" href="#">Architetture</a></li>
+			            <li><a class="dropdown-item" href="#">Testi</a></li>
+			          </ul>
+			        </li>
+			      </ul>
+			      <form class="d-flex" role="search">
+			        <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+			        <button class="btn me-1" type="submit" type="button"><i class="bi bi-search"></i></button> 
+			      </form>
+			      <button type="button" class="btn btn-dark">Accedi</button>	
+			    </div>
+			  </div>
+			</nav>
+			<div class="container-fluid pt-3">
+				<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+				  <ol class="breadcrumb">
+				    <li class="breadcrumb-item"><a href="index.html" class="link-dark">Home</a></li>
+				    <li class="breadcrumb-item active" aria-current="page"><strong>Artisti</strong></li>
+				  </ol>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<div class="container-fluid">
+				<div class="row">
+				    <div class="col-md-2">
+				    	<aside>
+				    		<div class="pt-3">
+				    			<h5><i class="bi bi-filter-circle-fill"></i> Filtri</h5>
+				    			<hr/>
+								<div class="accordion" id="myaccordion">
+								  <div class="accordion-item">
+								    <h2 class="accordion-header" id="headingOne">
+								      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								        Tempi
+								      </button>
+								    </h2>
+								    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#myaccordion">
+								      <div class="accordion-body">
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+										  <label class="form-check-label" for="flexCheckDefault1">
+										    XIV secolo
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+										  <label class="form-check-label" for="flexCheckDefault2">
+										    XV secolo
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+										  <label class="form-check-label" for="flexCheckDefault3">
+										    XVI secolo
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+										  <label class="form-check-label" for="flexCheckDefault4">
+										    XVII secolo
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked5" checked>
+										  <label class="form-check-label" for="flexCheckChecked5">
+										    XVIII secolo
+										  </label>
+										</div>
+								      </div>
+								    </div>
+								  </div>
+								  <div class="accordion-item">
+								    <h2 class="accordion-header" id="headingTwo">
+								      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								        Luoghi
+								      </button>
+								    </h2>
+								  </div>
+								  <div class="accordion-item">
+								    <h2 class="accordion-header" id="headingThree">
+								      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								      Catalogo  
+								      </button>
+								    </h2>
+								    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#myaccordion">
+								      <div class="accordion-body">
+								        <div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+										  <label class="form-check-label" for="flexCheckDefault6">
+										    Dipinti
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
+										  <label class="form-check-label" for="flexCheckDefault7">
+										    Sculture
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+										  <label class="form-check-label" for="flexCheckDefault8">
+										    Mosaici
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9">
+										  <label class="form-check-label" for="flexCheckDefault9">
+										    Architetture
+										  </label>
+										</div>
+										<div class="form-check">
+										  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked10" checked>
+										  <label class="form-check-label" for="flexCheckChecked10">
+										    Testi
+										  </label>
+										</div>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+							</div>
+				    	</aside>
+					</div>
+					<div class="col-md-10">
+						<div class="row">
+							<div class="col-md-12">
+								<ul class="nav nav-tabs" id="myTab" role="tablist">
+									<li class="nav-item">
+										<a class="nav-link active link-dark" id="all-tab" data-bs-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">Artisti</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="a-tab" data-bs-toggle="tab" href="#a" role="tab" aria-controls="a" aria-selected="true">A</a>
+									</li>
+									<li class="nav-item"> 
+										<a class="nav-link disabled" id="b-tab" data-bs-toggle="tab" href="#b" role="tab" aria-controls="b" aria-selected="true">B</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="c-tab" data-bs-toggle="tab" href="#c" role="tab" aria-controls="c" aria-selected="true">C</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="d-tab" data-bs-toggle="tab" href="#d" role="tab" aria-controls="d" aria-selected="true">D</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="e-tab" data-bs-toggle="tab" href="#e" role="tab" aria-controls="e" aria-selected="true">E</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="f-tab" data-bs-toggle="tab" href="#f" role="tab" aria-controls="f" aria-selected="true">F</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="g-tab" data-bs-toggle="tab" href="#g" role="tab" aria-controls="g" aria-selected="true">G</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="h-tab" data-bs-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">H</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="i-tab" data-bs-toggle="tab" href="#i" role="tab" aria-controls="i" aria-selected="true">I</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="j-tab" data-bs-toggle="tab" href="#j" role="tab" aria-controls="j" aria-selected="true">J</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="k-tab" data-bs-toggle="tab" href="#k" role="tab" aria-controls="k" aria-selected="true">K</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link link-dark" id="l-tab" data-bs-toggle="tab" href="#l" role="tab" aria-controls="l" aria-selected="true">L</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="m-tab" data-bs-toggle="tab" href="#m" role="tab" aria-controls="m" aria-selected="true">M</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="n-tab" data-bs-toggle="tab" href="#n" role="tab" aria-controls="n" aria-selected="true">N</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="o-tab" data-bs-toggle="tab" href="#o" role="tab" aria-controls="o" aria-selected="true">O</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="p-tab" data-bs-toggle="tab" href="#p" role="tab" aria-controls="p" aria-selected="true">P</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="q-tab" data-bs-toggle="tab" href="#q" role="tab" aria-controls="q" aria-selected="true">Q</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="r-tab" data-bs-toggle="tab" href="#r" role="tab" aria-controls="r" aria-selected="true">R</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="s-tab" data-bs-toggle="tab" href="#s" role="tab" aria-controls="s" aria-selected="true">S</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="t-tab" data-bs-toggle="tab" href="#t" role="tab" aria-controls="t" aria-selected="true">T</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="u-tab" data-bs-toggle="tab" href="#u" role="tab" aria-controls="u" aria-selected="true">U</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link link-dark" id="v-tab" data-bs-toggle="tab" href="#v" role="tab" aria-controls="v" aria-selected="true">V</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="w-tab" data-bs-toggle="tab" href="#w" role="tab" aria-controls="w" aria-selected="true">W</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="x-tab" data-bs-toggle="tab" href="#x" role="tab" aria-controls="x" aria-selected="true">X</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="y-tab" data-bs-toggle="tab" href="#y" role="tab" aria-controls="y" aria-selected="true">Y</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled" id="z-tab" data-bs-toggle="tab" href="#z" role="tab" aria-controls="z" aria-selected="true">Z</a>
+									</li>
+								</ul>
+								<div class="tab-content" id="myTabContent">
+									<div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab"> 
+										<br/>
+										<div class="alert alert-danger" role="alert">
+										<i class="bi bi-exclamation-triangle-fill"></i>  ATTENZIONE: pagina in allestimento<i class="bi bi-exclamation-lg"></i>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="l" role="tabpanel" aria-labelledby="a-tab">
+										<div class="row row-cols-1 row-cols-md-3 g-4 pt-5 pb-5">
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/liberi.jpg" class="card-img-top" alt="Pietro Liberi, Venezia supplica S.Antonio di Padova perchè interceda per la cessazione della guerra di Candia 1652-1656">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Liberi, Pietro</a><a href="http://viaf.org/viaf/221548167" class="h5"><sup> VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/lecourt.jpg" class="card-img-top" alt="Giusto Le Court, Busto di Democrito">
+										      <div class="card-body text-center">
+										      	<a href="#" class="h5">Le Court, Giusto</a><a href="http://viaf.org/viaf/96331839" class="h5"><sup> VIAF</sup></a>
+										      </div>
+											</div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/lotto.jpg" class="card-img-top" alt="San Nicola in Gloria">
+										      <div class="card-body text-center">
+										      	<a href="#" class="h5">Lotto, Lorenzo</a><a href="http://viaf.org/viaf/22165049" class="h5"><sup> VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/longhena.jpg" class="card-img-top" alt="Baldassarre Longhena, Santa Maria di Nazaret, 1656-1663">
+										      <div class="card-body text-center">
+										      	<a href="#" class="h5">Longhena, Baldassarre</a><a href="http://viaf.org/viaf/13103481" class="h5"><sup> VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/liss.jpg" class="card-img-top" alt="Johann Liss, Visione di San Giorlamo, Chiesa Nicola da Tolentino, 1627">
+										      <div class="card-body text-center">
+										      	<a href="#" class="h5">Liss, Johann</a><a href=" http://viaf.org/viaf/120783881" class="h5"><sup> VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/langetti.jpg" class="card-img-top" alt="Giovan Battista Langetti, Giobbe maledetto da sua moglie">
+										      <div class="card-body text-center">
+										      	<a href="#" class="h5">Langetti, Giovan Battista</a><a href="http://viaf.org/viaf/89122866" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/loth.jpg" class="card-img-top" alt="Johann Carl Loth, Sacra Famiglia con Dio padre e Angeli">
+										      <div class="card-body text-center">
+										      	<a href="#" class="h5">Loth, Johann Carl</a><a href="http://viaf.org/viaf/59879127" class="h5"><sup> VIAF</sup></a>
+										      </div> 
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/lombardo.jpg" class="card-img-top" alt="Tullio Lombardo, Doppio Ritratto in posa antica">
+										      <div class="card-body text-center">
+										      	<a href="#" class="h5">Lombardo, Tullio</a><a href="http://viaf.org/viaf/79399948" class="h5"><sup>VIAF</sup></a>
+										      </div> 
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/pietro-longhi.jpg" class="card-img-top" alt="Pietro Longhi, La polenta, 1740">
+										      <div class="card-body text-center">
+										      	<a href="#" class="h5">Longhi, Pietro</a><a href=" http://viaf.org/viaf/52485558" class="h5"><sup>VIAF</sup></a>
+										      </div> 
+										    </div>
+										  </div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="v" role="tabpanel" aria-labelledby="v-tab">
+										<div class="row row-cols-1 row-cols-md-3 g-4 pt-5 pb-5">
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/vittoria.jpg" class="card-img-top" alt="Alessandro Vittoria, San Sebastiano, Chiesa di San Francesco delle Vigne, 1563">
+										      <div class="card-body text-center">
+										         <a href="alessandro-vittoria.html" class="h5">Vittoria, Alessandro</a><a href="http://viaf.org/viaf/10276598" class="h5"><sup>VIAF</sup></a>   
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/assunta.jpg" class="card-img-top" alt="Tiziano Vecellio, Assunta, Basilica di Santa Maria Gloriosa dei Frari, 1516-1518">
+										      <div class="card-body text-center">
+										        <a href="tiziano.html" class="h5">Vecellio, Tiziano</a><a href="http://viaf.org/viaf/109266837" class="h5"><sup>VIAF</sup></a>   
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/veronese-madonna.jpg" class="card-img-top" alt="Paolo Veronese, Madonna con bambino e i santi, 1562">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Veronese, Paolo</a><a href="http://viaf.org/viaf/95162605" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/vecchia.jpg" class="card-img-top" alt="Pietro della Vecchia, Crocifissione di Cristo, 1638">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Vecchia, Pietro della</a><a href="http://viaf.org/viaf/89126346" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/varotari.jpg" class="card-img-top" alt="Padovanino, Madonna con Bambino e angeli">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Varotari, Alessandro</a><a href="http://viaf.org/viaf/95836515" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/vasari-speranza.jpg" class="card-img-top" alt="Giorgio Vasari, La Speranza, 1542">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Vasari, Giorgio</a><a href="http://viaf.org/viaf/46768219" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/madonna-veneziano.jpg" class="card-img-top" alt="Lorenzo Veneziano, Matrimonio mistico di santa Caterina d'Alessandria, 1360">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Veneziano, Lorenzo</a><a href="http://viaf.org/viaf/95869656" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/antonio-vivarini.jpg" class="card-img-top" alt="Antonio Vivarini, Incoronazione della Vergine, 1444">
+										      <div class="card-body text-center">
+										         <a href="#" class="h5">Vivarini, Antonio</a><a href="http://viaf.org/viaf/13404130" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										  <div class="col">
+										    <div class="card">
+										      <img src="img/vanvitelli.jpg" class="card-img-top" alt="Gaspare Vanvitelli, Vista di Venezia dall'isola di San Giorgio, 1719">
+										      <div class="card-body text-center">
+										        <a href="#" class="h5">Vanvitelli, Gaspare</a><a href="http://viaf.org/viaf/251021853" class="h5"><sup>VIAF</sup></a>
+										      </div>
+										    </div>
+										  </div>
+										</div>
+									</div>
+								</div>  
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<nav aria-label="Page navigation">
+					  <ul class="pagination justify-content-center">
+					    <li class="page-item">
+					      <a class="page-link link-dark" href="#" aria-label="Previous">
+					        <span aria-hidden="true">&laquo;</span>
+					      </a>
+					    </li>
+					    <li class="page-item"><a class="page-link link-dark" href="#">1</a></li>
+					    <li class="page-item"><a class="page-link link-dark" href="#">2</a></li>
+					    <li class="page-item"><a class="page-link link-dark" href="#">3</a></li>
+					    <li class="page-item">
+					      <a class="page-link link-dark" href="#" aria-label="Next">
+					        <span aria-hidden="true">&raquo;</span>
+					      </a>
+					    </li>
+					  </ul>
+					</nav>		
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="container-fluid">
+				<div class="container-fluid background-blue">
+					<div class="container">
+						<div class="row">
+			                <div class="col-md-4 py-5">
+			                    <ul class="no-lista">
+			                        <li><h5>Veneziatico</h5></li>
+			                        <li><i class="bi bi-person-circle"></i>  Progetto realizzato da <strong> Luana Lattanzio & Rachele Pelusi</strong></li>
+			                        <li><i class="bi bi-laptop-fill"></i> Corso di Digital Humanities (2021/2022)</li>
+			                        <li><i class="bi bi-geo-fill"></i>Dipartimento di Arti Visive, Alma Mater Studiorum</li>
+			                    </ul>
+			                </div>
+			                <div class="col-md-2"></div>
+			                <div class="col-md-4 py-5">
+			                    <ul class="no-lista">
+			                        <li><h5>Contatti</h5></li>
+			                        <li><i class="bi bi-globe"></i>#</li>
+			                        <li><i class="bi bi-telephone"></i> 555-988-9828</li>
+			                        <li><i class="bi bi-envelope-fill"></i> info@veneziatico.edu.it</li>
+			                        <li><i class="bi bi-instagram"></i> <i class="bi bi-facebook"></i> <i class="bi bi-twitter"></i></li>                     
+			                    </ul>
+			                </div>
+			                <div class="col-md-2"></div>
+			            </div>
+			        </div>
+				</div>
+				<div class="row">
+					<p class="text-center">©Copyright 2022 - ALMA MATER STUDIORUM - Università di Bologna</p>
+				</div>	
+            </div>
+		</footer>
+    	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

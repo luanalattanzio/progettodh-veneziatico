@@ -1,0 +1,35 @@
+<catalogo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="veneziatico">
+	<item id="Vite" xml:id="veneziatico-vite">
+	<dc:title>Vite dei più celebri architetti, e scultori veneziani, che fiorirono nel secolo decimosesto scritte da Tommaso Temanza</dc:title>
+	<dc:creator>Tommaso Temanza</dc:creator>
+	<dc:subject type="classificazione">Monografia; biografie architetti e scultori veneziani XVIII sec.</dc:subject>
+	<dc:description xml:lang="it">
+		Le 
+		<dc:title>Vite dei più celebri architetti, e scultori veneziani</dc:title> è una 
+		<dc:subject>raccolta di biografie</dc:subject> scritte nel 
+		<dc:date>XVIII secolo</dc:date> dall'architetto e scrittore 
+		<dc:creator>Tommaso Temanza</dc:creator>. Il trattato fu pubblicato per la prima volta nel 
+		<dc:date>1778</dc:date> da 
+		<dc:publisher>Carlo Palese</dc:publisher> a 
+		<dc:coverage>Venezia</dc:coverage>.
+		L'opera è una perfetta testimonianza di come si presentava il contesto veneziano e delle vicende legate ai protagonisti dell'arte nella 
+		<dc:date>seconda metà del Settecento</dc:date>. 
+		Dal breve estratto riportato si deducono alcune delle commissioni e delle opere realizzate da Alessandro Vittoria per la Basilica di Santa Maria Gloriosa dei Frari.
+	</dc:description>
+	<dc:date type="edizione analogica">1778</dc:date>
+	<dc:date type="edizione digitale">13 Gennaio 2010</dc:date>
+	<dc:publisher type="edizione analogica">stamperia di C. Palese</dc:publisher>
+	<dc:publisher type="edizione digitale">Internet Archive</dc:publisher>
+	<dc:type>biografia</dc:type>
+	<dc:format type="edizione analogica">libro cartaceo</dc:format>
+	<dc:format type="edizione digitale">PDF; ePub</dc:format>
+	<dc:identifier type="edizione analogica">84-B7131; http://primo.getty.edu/GRI:GETTY_ALMA21126037640001551 </dc:identifier>
+	<dc:identifier type="edizione digitale">OCLC:1102193994</dc:identifier> 
+	<dc:language>it</dc:language>
+	<dc:relation>Alessandro Vittoria</dc:relation>
+	<dc:relation>Alatare Zane</dc:relation>
+	<dc:relation>San Gerolamo</dc:relation>
+	<dc:coverage type="edizione analogica">Getty Reasearch Institute</dc:coverage>
+	<dc:coverage type="edizione digitale">Internet Archive</dc:coverage>
+	</item>
+</catalogo>
